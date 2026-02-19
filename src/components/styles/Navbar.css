@@ -1,0 +1,10 @@
+.stars {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.half-star {
+  clip-path: inset(0 50% 0 0);
+  margin-right: -8px;
+}
