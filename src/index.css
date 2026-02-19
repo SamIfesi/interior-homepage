@@ -1,0 +1,63 @@
+:root {
+  /* ===== Backgrounds ===== */
+  --color-bg-primary: #f6f5f2;
+  --color-bg-white: #ffffff;
+  --color-bg-dark: #0f172a;
+  --color-bg-muted: #d9d9d9;
+
+  /* ===== Borders / Strokes ===== */
+  --color-border-light: #e5e7eb;
+  --color-border-white-10: rgba(255, 255, 255, 0.1);
+
+  /* ===== Text Colors ===== */
+  --color-text-primary: #1e293b;
+  --color-text-secondary: #103544;
+  --color-text-muted: #64748b;
+  --color-text-old-price: #94a3b8;
+  --color-text-black: #000000;
+  --color-text-white-90: rgba(255, 255, 255, 0.9);
+  --color-text-white-75: rgba(255, 255, 255, 0.75);
+
+  /* ===== Status / Pricing ===== */
+  --color-sale: #fb7372;
+  --color-danger: #ef4444;
+
+  /* ===== Accent Colors ===== */
+  --color-yellow: #fde047;
+  --color-orange: #ea580c;
+  --color-orange-2: #f47216;
+  --color-blue: #38bdf8;
+  --color-blue-dark: #0e4595;
+  --color-blue-deep: #16366f;
+  --color-indigo: #6366f1;
+  --color-green: #84cc16;
+  --color-green-bright: #a3e635;
+  --color-amber: #fcd34d;
+  --color-amber-dark: #ca8a04;
+  --color-gold: #eab308;
+
+  /* ===== Neutral / Grayscale ===== */
+  --color-gray-400: #a3a3a3;
+  --color-gray-500: #4d4d4d;
+  --color-gray-300: #cbd5e1;
+  --color-slate-600: #475569;
+
+  /* ===== Overlay / Transparent ===== */
+  --color-black-25: rgba(0, 0, 0, 0.25);
+  --color-white-50: rgba(255, 255, 255, 0.5);
+
+  /* ===== Payment / Brand Colors ===== */
+  --color-visa-blue: #2557d6;
+  --color-mastercard-red: #d9222a;
+  --color-mastercard-orange: #ee9f2d;
+  --color-paypal-blue: #003087;
+  --color-paypal-light-blue: #009cde;
+  --color-payment-yellow: #f2ae14;
+}
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
