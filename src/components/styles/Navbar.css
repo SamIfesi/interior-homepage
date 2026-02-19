@@ -1,3 +1,11 @@
+.navbar {}
+.navbar-top {}
+.main-nav {}
+.nav-links {}
+.nav-actions {}
+.trust-bar {}
+.rating {}
+
 .stars {
   display: inline-flex;
   align-items: center;
