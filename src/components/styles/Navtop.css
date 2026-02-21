@@ -1,0 +1,24 @@
+.navbar-top {
+  width: 100%;
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.75rem;
+  color: var(--slate-600);
+}
+.navbar-top p a {
+  color: var(--slate-600);
+  font-weight: 600;
+  text-decoration: none;
+}
+.navbar-top .top-links {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.top-links li {
+  text-transform: uppercase;
+  list-style: none;
+  font-weight: 500;
+}
