@@ -6,7 +6,7 @@ import '../styles/MainNav.css';
 export default function MainNav() {
   return (
     <div className="main-nav">
-      <b className="logo">MNMLST</b>
+      <h1 className="logo">MNMLST</h1>
       <NavLinks />
       <NavActions />
     </div>

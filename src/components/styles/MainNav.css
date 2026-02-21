@@ -1,0 +1,34 @@
+.main-nav {
+  background: var(--bg-primary);
+  padding: 2rem 5rem;
+  display:flex;
+  align-items: center;
+  gap: 3rem;
+  color: var(--slate-600);
+}
+.logo {
+  font-size: 1.2rem;
+  letter-spacing: .5rem;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  list-style: none;
+  gap: 2rem;
+  margin-left: 1rem;
+  font-weight: 500;
+  font-size: .8rem;
+  letter-spacing:.05rem;
+  text-transform: uppercase;
+}
+.nav-links li:last-child{
+  color: var(--sale)
+}
+.nav-actions{
+  margin-left: auto;
+  display: flex;
+  gap: 3rem;
+}
+.nav-actions img {
+  cursor: pointer;
+}
