@@ -1,5 +1,7 @@
 import NavLinks from './NavLinks';
 import NavActions from './NavActions';
+import '../styles/MainNav.css';
+
 
 export default function MainNav() {
   return (

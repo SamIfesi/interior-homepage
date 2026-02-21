@@ -1,3 +1,6 @@
+import '../styles/Navtop.css';
+
+
 export default function TopBar() {
   return (
     <div className="navbar-top">
