@@ -2,17 +2,12 @@
   width: 100vw;
   background: var(--bg-white);
 }
-.navbar-top {
-  padding: 0 5rem;
-  width: 100%;
-}
-.main-nav {
-  background: var(--bg-primary);
-}
+
 /* .nav-links {} */
 /* .nav-actions {} */
 .trust-bar {
-  background: var(--)
+  background: var(--bg-dark);
+  padding: 0 5rem;
 }
 /* .rating {} */
 
