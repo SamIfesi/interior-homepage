@@ -1,0 +1,26 @@
+.trust-bar {
+  background: var(--slate-600);
+  padding: 1rem 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--text-white-90);
+  font-size: 0.85rem;
+}
+.trust-items{
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  list-style: none;
+}
+.trust-items li {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rating {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: .6rem;
+}

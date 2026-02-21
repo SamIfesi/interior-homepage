@@ -2,6 +2,7 @@ import share from '/assets/icons/share.svg';
 import cert from '/assets/icons/cert.svg';
 import bus from '/assets/icons/bus.svg';
 import Rating from './Rating';
+import '../styles/TrustBar.css';
 
 export default function TrustBar() {
   return (

@@ -3,14 +3,6 @@
   background: var(--bg-white);
 }
 
-/* .nav-links {} */
-/* .nav-actions {} */
-.trust-bar {
-  background: var(--bg-dark);
-  padding: 0 5rem;
-}
-/* .rating {} */
-
 .stars {
   display: inline-flex;
   align-items: center;
