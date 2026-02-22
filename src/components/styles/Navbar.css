@@ -9,7 +9,14 @@
   gap: 2px;
 }
 
+.half-star-wrapper {
+  position: relative;
+  display: inline-flex;
+}
+
 .half-star {
+  position: absolute;
+  top: 0;
+  left: 0;
   clip-path: inset(0 50% 0 0);
-  margin-right: -8px;
 }
