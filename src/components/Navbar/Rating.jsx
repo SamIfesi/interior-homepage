@@ -10,7 +10,7 @@ export default function Rating() {
         ))}
         <span className="half-star-wrapper">
           <img src={rateEmpty} alt="empty star" />
-          <img className="half-star-g" src={rate} alt="half star" />
+          <img className="half-star" src={rate} alt="half star" />
         </span>
       </div>
       <p>4.5/5 on 22,543 reviews</p>

@@ -12,9 +12,9 @@
   position: relative;
   display: inline-flex;
 }
-.half-star-g {
+.half-star {
   position: absolute;
   top: 0;
   left: 0;
-  clip-path: inset(0 50% 0 0);
+  clip-path: inset(0 52% 0 0);
 }
