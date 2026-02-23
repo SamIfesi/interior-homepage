@@ -8,13 +8,11 @@
   align-items: center;
   gap: 2px;
 }
-
 .half-star-wrapper {
   position: relative;
   display: inline-flex;
 }
-
-.half-star {
+.half-star-g {
   position: absolute;
   top: 0;
   left: 0;
