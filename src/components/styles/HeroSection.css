@@ -11,6 +11,10 @@
   color: var(--text-white-90);
   text-align: center;
 }
+.hero-title{
+  font-size: 3.5rem;
+  width: 42rem;
+}
 .hero-button{
   background: var(--bg-white);
   color: var(--text-secondary);
