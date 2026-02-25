@@ -1,15 +1,9 @@
-const links = [
-  'Sofas & Chairs',
-  'Furniture',
-  'Beds & Bedroom',
-  'Accessories',
-  'Sale'
-];
+import { navLinkData } from '../Data/Data';
 
 export default function NavLinks() {
   return (
     <ul className="nav-links">
-      {links.map((link, index) => (
+      {navLinkData.map((link, index) => (
         <li key={index}>{link}</li>
       ))}
     </ul>

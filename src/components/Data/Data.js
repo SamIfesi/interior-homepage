@@ -16,3 +16,10 @@ export const topBarData = {
   linkText: 'Why not ask to have it made!',
   links: ['Help', 'GB (£)', 'Find a store', 'Sign in or register'],
 };
+export const navLinkData = [
+  'Sofas & Chairs',
+  'Furniture',
+  'Beds & Bedroom',
+  'Accessories',
+  'Sale'
+];
