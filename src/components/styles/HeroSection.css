@@ -15,10 +15,20 @@
   font-size: 3.5rem;
   width: 42rem;
 }
+.hero-description{
+  font-size: .8rem;
+  margin: .8rem 0 1rem;
+
+}
 .hero-button{
   background: var(--bg-white);
   color: var(--text-secondary);
-  padding: 0.75rem 2.5rem;
+  padding: 0.75rem 1.2rem;
   border: none;
   border-radius: 5rem;
 }
+
+/* Updates hero section messaging and styling
+
+Refines homepage copy to highlight comfort, quality, and durability, targeting a more premium positioning.
+Enhances visual emphasis on the hero section title with increased font size and defined width for improved readability and impact. */

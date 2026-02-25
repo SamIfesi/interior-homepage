@@ -1,13 +1,13 @@
 import '../styles/HeroSection.css';
 
-export default function HeroSection() {
+export default function HeroSection({ data }) {
   return (
     <section className="hero-section">
-      <h1 className="hero-title">Award- Winning Comfort & Quality</h1>
+      <h1 className="hero-title">{data.title}</h1>
       <p className="hero-description">
-        We create high-quality, beautiful furniture that's built to last.
+        {data.description}
       </p>
-      <button className="hero-button">Shop Latest Range Now</button>
+      <button className="hero-button">{data.buttonText}</button>
     </section>
   );
 }
