@@ -24,15 +24,11 @@ export default function Footer() {
         <p>All rights reserved © MNMLST 2026</p>
 
         <ul className="legal-links">
-          <li>
-            <a href="#">Privacy Policy</a>
-          </li>
-          <li>
-            <a href="#">Terms & Conditions</a>
-          </li>
-          <li>
-            <a href="#">Cookie Policy</a>
-          </li>
+          {termsLinks.map((link, index) => (
+            <li key={index}>
+              <a href={link.href}>{link.label}</a>
+            </li>
+          ))}
         </ul>
       </div>
     </footer>
