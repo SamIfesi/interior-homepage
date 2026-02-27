@@ -1,4 +1,4 @@
-// import '../styles/Footer.css';
+import '../styles/Footer.css';
 import FooterColumn from './FooterColumn';
 import NewsLetter from './NewsLetter';
 import SocialIcons from './SocialIcons';
