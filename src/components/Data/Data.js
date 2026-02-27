@@ -25,7 +25,11 @@ export const navLinkData = [
 ];
 
 // Footer Data
-
+export const termsLinks = [
+  { label: 'Privacy Policy', href: '#' },
+  { label: 'Terms & Conditions', href: '#' },
+  { label: 'Cookie Policy', href: '#' },
+];
 export const footerColumns = [
   {
     title: 'Living Room',

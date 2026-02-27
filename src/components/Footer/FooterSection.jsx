@@ -2,7 +2,7 @@ import '../styles/Footer.css';
 import FooterColumn from './FooterColumn';
 import NewsLetter from './NewsLetter';
 import SocialIcons from './SocialIcons';
-import footerColumns from './footerData';
+import { footerColumns, termsLinks } from '../Data/Data';
 
 export default function Footer() {
   return (
