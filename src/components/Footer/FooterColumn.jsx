@@ -1,4 +1,4 @@
-import { FooterLink } from './FooterLink';
+import FooterLink from './FooterLink';
 
 export default function FooterColumn({ title, links }) {
   return (
