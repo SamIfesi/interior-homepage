@@ -21,10 +21,10 @@ export default function Footer() {
         </div>
       </div>
       <div className="footer-bottom">
-        <p>All rights reserved © MNMLST 2026</p>
+        <p>{termsLinks.text}</p>
 
         <ul className="legal-links">
-          {termsLinks.map((link, index) => (
+          {termsLinks.links.map((link, index) => (
             <li key={index}>
               <a href={link.href}>{link.label}</a>
             </li>
