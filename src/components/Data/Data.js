@@ -25,6 +25,12 @@ export const navLinkData = [
 ];
 
 // Footer Data
+export const socials = [
+  { icon: 'Facebook', url: '#' },
+  { icon: 'Instagram', url: '#' },
+  { icon: 'Twitter', url: '#' },
+  { icon: 'Pinterest', url: '#' },
+];
 export const termsLinks = {
   text: 'All rights reserved © MNMLST 2026',
   links: [
