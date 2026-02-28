@@ -9,7 +9,6 @@ export default function Footer() {
     <footer className="footer">
       <div className="footer-top">
         <div className="footer-left">
-          <h4>Connect with Us</h4>
           <SocialIcons />
           <NewsLetter />
         </div>

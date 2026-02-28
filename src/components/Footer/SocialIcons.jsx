@@ -1,20 +1,18 @@
+import {socials} from '../Data/Data';
 export default function SocialIcons() {
-  const socials = [
-    { name: 'Facebook', url: '#' },
-    { name: 'Instagram', url: '#' },
-    { name: 'Twitter', url: '#' },
-    { name: 'Pinterest', url: '#' },
-  ];
+    return (
+    <>
+      <h3>Connect with Us</h3>
 
-  return (
-    <ul className="social-icons">
-      {socials.map((social) => (
-        <li key={social.name}>
-          <a href={social.url} aria-label={social.name}>
-            {social.name}
-          </a>
-        </li>
-      ))}
-    </ul>
+      <ul classicon="social-icons">
+        {socials.map((social) => (
+          <li key={social.icon}>
+            <a href={social.url} aria-label={social.icon}>
+              {social.icon}
+            </a>
+          </li>
+        ))}
+      </ul>
+    </>
   );
 }
