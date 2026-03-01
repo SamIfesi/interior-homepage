@@ -57,12 +57,11 @@
 
 .footer {
   background: var(--text-secondary);
-  padding: 2rem 5rem;
   color: var(--bg-muted);
 }
 .footer a {
   color: var(--bg-muted);
-  font-size: .75rem;
+  font-size: 0.75rem;
   font-weight: 100;
   text-decoration: none;
 }
@@ -72,8 +71,9 @@
 .footer-top {
   display: flex;
   gap: 6rem;
+  padding: 1.5rem 5rem;
 }
-.footer-links{
+.footer-links {
   display: flex;
   justify-content: space-between;
   gap: 6rem;
@@ -82,9 +82,13 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-top: 2rem;
+  padding: 1.5rem 5rem;
 }
-.legal-links{
+.footer-bottom p {
+  font-size: 0.75rem;
+  font-weight: 300;
+}
+.legal-links {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -96,4 +100,28 @@
 .legal-links li:last-child {
   padding-right: 0;
   border-right: none;
+}
+
+/* Payment */
+.payment-container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  justify-content: center;
+  align-items: center;
+  padding: 1.5rem;
+  border-top: 1px solid var(--border-white-10);
+  border-bottom: 1px solid var(--border-white-10);
+}
+.payment-text{
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  font-size: 0.75rem;
+}
+.payment-icons{
+  display:flex;
+  align-items: center;
+  gap: 1.5rem;
 }
