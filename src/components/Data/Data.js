@@ -21,15 +21,40 @@ export const navLinkData = [
   'Furniture',
   'Beds & Bedroom',
   'Accessories',
-  'Sale'
+  'Sale',
+];
+// customer review
+export const review = [
+  {
+    section: 'Customer Reviews',
+    title: 'Built by us. Loved by you.',
+    quote: [
+      {
+        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
+        author: 'Penelope Smith, London',
+      },
+      {
+        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
+        author: 'Penelope Smith, London',
+      },
+      {
+        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
+        author: 'Penelope Smith, London',
+      },
+      {
+        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
+        author: 'Penelope Smith, London',
+      },
+    ],
+  },
 ];
 
 // Footer Data
 export const socials = [
-  { icon: 'Facebook', url: '#' },
-  { icon: 'Instagram', url: '#' },
-  { icon: 'Twitter', url: '#' },
-  { icon: 'Pinterest', url: '#' },
+  { icon: '/assets/icons/facebook.svg', url: '#', alt: 'facebook' },
+  { icon: '/assets/icons/instagram.svg', url: '#', alt: 'instagram' },
+  { icon: '/assets/icons/twitter.svg', url: '#', alt: 'twitter' },
+  { icon: '/assets/icons/pinterest.svg', url: '#', alt: 'pinterest' },
 ];
 export const termsLinks = {
   text: 'All rights reserved © MNMLST 2026',
