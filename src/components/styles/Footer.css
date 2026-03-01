@@ -4,6 +4,7 @@
   --bg-white: #ffffff;
   --bg-dark: #0f172a;
   --bg-muted: #d9d9d9;
+  --bg-mutd: #d9d9d9;
 
   /* ===== Borders / Strokes ===== */
   --border-light: #e5e7eb;
@@ -78,6 +79,17 @@
   justify-content: space-between;
   gap: 6rem;
 }
+.footer h3 {
+  font-size: 0.85rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  color: var(--text-white-90);
+}
+.footer-left .social-icons {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
 .footer-bottom {
   display: flex;
   justify-content: space-between;
@@ -114,14 +126,14 @@
   border-top: 1px solid var(--border-white-10);
   border-bottom: 1px solid var(--border-white-10);
 }
-.payment-text{
+.payment-text {
   display: flex;
   gap: 0.5rem;
   align-items: center;
   font-size: 0.75rem;
 }
-.payment-icons{
-  display:flex;
+.payment-icons {
+  display: flex;
   align-items: center;
   gap: 1.5rem;
 }

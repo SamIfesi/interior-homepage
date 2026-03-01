@@ -4,7 +4,7 @@ export default function SocialIcons() {
       <>
         <h3>Connect with Us</h3>
 
-        <ul classicon="social-icons">
+        <ul className="social-icons">
           {socials.map((social) => (
             <li key={social.icon}>
               <a href={social.url} aria-label={social.alt}>
