@@ -2,6 +2,7 @@ import '../styles/Footer.css';
 import FooterColumn from './FooterColumn';
 import NewsLetter from './NewsLetter';
 import SocialIcons from './SocialIcons';
+import Payment from './FooterPay';
 import { footerColumns, termsLinks } from '../Data/Data';
 
 export default function Footer() {
@@ -19,6 +20,9 @@ export default function Footer() {
           ))}
         </div>
       </div>
+
+      <Payment />
+
       <div className="footer-bottom">
         <p>{termsLinks.text}</p>
 

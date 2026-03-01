@@ -10,16 +10,16 @@ import Stripe from '/assets/icons/Stripe-Payments.svg';
 export default function Payment() {
   return (
     <div className="payment-container">
-      <p>
+      <p className="payment-text">
       <img src={Paysecure} alt="" />
       Payments are secured by Stripe
       </p>
       <img src={Stripe} alt="" />
       <div className="payment-icons">
         <img src={Visa} alt="Visa" />
+        <img src={Discover} alt="PayPal" />
         <img src={Mastercard} alt="Mastercard" />
         <img src={Paypal} alt="PayPal" />
-        <img src={Discover} alt="PayPal" />
         <img src={Amex} alt="PayPal" />
       </div>
     </div>
