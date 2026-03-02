@@ -26,6 +26,7 @@
 /* ---- Quote card ---- */
 .reviews-quote {
   max-width: 40rem;
+  min-height: 10rem;
   margin: 0 auto 2rem;
 }
 

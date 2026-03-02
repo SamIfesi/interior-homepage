@@ -7,16 +7,21 @@ const chevronLeft = '/assets/icons/chevron_left.svg';
 const chevronRight = '/assets/icons/chevron_right.svg';
 
 export default function CustomerReviews() {
-  const {  subtitle, title, quote } = review[0];
+  const { subtitle, title, quote } = review[0];
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  const handlePrev = () => {};
-  const handleNext = () => {};
+  const handlePrev = () => {
+    setCurrentIndex((prev) => (prev === 0 ? quote.length - 1 : prev - 1));
+  };
+
+  const handleNext = () => {
+    setCurrentIndex((prev) => (prev === quote.length - 1 ? 0 : prev + 1));
+  };
 
   return (
     <section className="customer-reviews">
       {/* ---- Header ---- */}
-      <p className="reviews-subtitle">{ subtitle}</p>
+      <p className="reviews-subtitle">{subtitle}</p>
       <h2 className="reviews-title">{title}</h2>
 
       {/* ---- Quote card ---- */}

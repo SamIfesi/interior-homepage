@@ -30,20 +30,20 @@ export const review = [
     title: 'Built by us. Loved by you.',
     quote: [
       {
-        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
+        text: 'The oak dining table I ordered exceeded all my expectations. The craftsmanship is impeccable and it arrived in perfect condition. It has become the centrepiece of our dining room and we receive compliments on it constantly. Delivery was smooth and the team were incredibly helpful.',
         author: 'Penelope Smith, London',
       },
       {
-        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
-        author: 'Penelope Smith, London',
+        text: 'Absolutely in love with the linen sofa we purchased. The fabric is soft yet durable, and the colour is even more beautiful in person. Assembly was straightforward and it fits our living room perfectly. Outstanding quality for the price — will definitely be ordering more pieces.',
+        author: 'James Hartley, Manchester',
       },
       {
-        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
-        author: 'Penelope Smith, London',
+        text: 'We redecorated our entire bedroom with pieces from this collection and could not be happier. The bed frame is sturdy, the wardrobe is spacious, and everything matches beautifully. Delivery was on time and the packaging was excellent. A truly seamless experience from start to finish.',
+        author: 'Sophie Brennan, Edinburgh',
       },
       {
-        text: 'I was delighted to receive the black cabinet . It is well constructed and very attractive in my lounge. Very well packaged, I was concerned there may have been a dent in the metal after its long journey but there was little chance of that. Would definitely shop with them again.',
-        author: 'Penelope Smith, London',
+        text: 'I bought a set of shelving units for my home office and the difference they have made is remarkable. Clean lines, solid build, and very easy to put together. Customer service was also fantastic when I had a question about sizing. I have already recommended this brand to several friends.',
+        author: 'Daniel Carter, Bristol',
       },
     ],
   },
