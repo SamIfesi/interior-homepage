@@ -26,7 +26,7 @@ export const navLinkData = [
 // customer review
 export const review = [
   {
-    section: 'Customer Reviews',
+    subtitle: 'Customer Reviews',
     title: 'Built by us. Loved by you.',
     quote: [
       {
