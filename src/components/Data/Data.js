@@ -23,6 +23,14 @@ export const navLinkData = [
   'Accessories',
   'Sale',
 ];
+
+// handmade section
+export const handMadeSec = {
+  subtitle: 'Handmade in the United Kingdom',
+  title: 'Unrivaled craftsmanship & care',
+  text: "Every item is handmade to order - which means we can customise your piece to almost any size and spec. Our in house design team can talk you through the process, so you know exactly what you're getting.",
+};
+
 // customer review
 export const review = [
   {
