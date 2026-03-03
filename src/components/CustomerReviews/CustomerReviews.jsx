@@ -25,7 +25,7 @@ export default function CustomerReviews() {
       <h2 className="reviews-title">{title}</h2>
 
       {/* ---- Quote card ---- */}
-      <div className="reviews-quote">
+      <div key={currentIndex} className="reviews-quote">
         <p className="reviews-text">&ldquo;{quote[currentIndex].text}&rdquo;</p>
         <h4 className="reviews-author">{quote[currentIndex].author}</h4>
         <Rating />
