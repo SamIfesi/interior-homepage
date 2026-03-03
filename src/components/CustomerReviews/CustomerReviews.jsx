@@ -4,17 +4,21 @@ import Rating from '../Navbar/Rating';
 import '../styles/CustomerReviews.css';
 
 const chevronLeft = '/assets/icons/chevron_left.svg';
+
 const chevronRight = '/assets/icons/chevron_right.svg';
 
 export default function CustomerReviews() {
   const { subtitle, title, quote } = review[0];
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [direction, setDirection] = useState('next');
 
   const handlePrev = () => {
+    setDirection('prev');
     setCurrentIndex((prev) => (prev === 0 ? quote.length - 1 : prev - 1));
   };
 
   const handleNext = () => {
+    setDirection('next');
     setCurrentIndex((prev) => (prev === quote.length - 1 ? 0 : prev + 1));
   };
 
@@ -25,7 +29,7 @@ export default function CustomerReviews() {
       <h2 className="reviews-title">{title}</h2>
 
       {/* ---- Quote card ---- */}
-      <div key={currentIndex} className="reviews-quote">
+      <div key={currentIndex} className={`reviews-quote slide-${direction}`}>
         <p className="reviews-text">&ldquo;{quote[currentIndex].text}&rdquo;</p>
         <h4 className="reviews-author">{quote[currentIndex].author}</h4>
         <Rating />
