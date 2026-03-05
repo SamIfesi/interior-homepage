@@ -1,14 +1,12 @@
 import { useState } from 'react';
-import { review } from '../Data/Data';
 import Rating from '../Navbar/Rating';
 import '../styles/CustomerReviews.css';
 
 const chevronLeft = '/assets/icons/chevron_left.svg';
-
 const chevronRight = '/assets/icons/chevron_right.svg';
 
-export default function CustomerReviews() {
-  const { subtitle, title, quote } = review[0];
+export default function CustomerReviews({ data }) {
+  const { subtitle, title, quote } = data;
   const [currentIndex, setCurrentIndex] = useState(0);
   const [direction, setDirection] = useState('next');
 
