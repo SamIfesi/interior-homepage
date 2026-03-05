@@ -1,0 +1,32 @@
+/* ========================================
+   HandMade Section
+   ======================================== */
+.handmade {
+  background-color: var(--bg-primary);
+  text-align: center;
+  padding: 4rem 1.5rem;
+}
+
+.handmade-subtitle {
+  font-size: 0.6rem;
+  font-weight: 500;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  color: var(--text-muted);
+  margin-bottom: 0.5rem;
+}
+
+.handmade-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  margin-bottom: 1.25rem;
+}
+
+.handmade-text {
+  font-size: 0.85rem;
+  line-height: 1.8;
+  color: var(--text-muted);
+  max-width: 36rem;
+  margin: 0 auto;
+}
