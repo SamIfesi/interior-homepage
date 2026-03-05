@@ -52,6 +52,12 @@ export default function CustomerReviews({ data }) {
           <img src={chevronRight} alt="Next review" />
         </button>
       </div>
+      <CarouselNav
+        onPrev={handlePrev}
+        onNext={handleNext}
+        currentIndex={currentIndex}
+        total={quote.length}
+      />
     </section>
   );
 }
