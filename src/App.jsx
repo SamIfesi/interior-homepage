@@ -4,7 +4,13 @@ import HeroSection from './components/HeroSection/HeroSection';
 import Footer from './components/Footer/FooterSection';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
 import HandMade from './components/HandMade/HandMade';
-import { heroData, review, handMadeSec } from './components/Data/Data';
+import CardSection from './components/Cards/CardSection';
+import {
+  heroData,
+  review,
+  handMadeSec,
+  furnitureProducts,
+} from './components/Data/Data';
 
 function App() {
   return (
@@ -13,6 +19,7 @@ function App() {
       <HandMade data={handMadeSec} />
       <HeroSection data={heroData} />
       <CustomerReviews data={review[0]} />
+      <CardSection products={furnitureProducts} />
       <Footer />
     </>
   );
