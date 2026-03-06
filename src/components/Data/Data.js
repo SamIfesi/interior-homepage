@@ -24,6 +24,71 @@ export const navLinkData = [
   'Sale',
 ];
 
+export const furnitureProducts = [
+  {
+    name: 'Romsey',
+    description: 'Adjustable Corner Desk with Shelves, Mango Wood and Black',
+    originalPrice: 1299.00,
+    salePrice: 699.00,
+    isOnSale: true,
+    isNew: true,
+    colours: ['#ea580c', '#38bdf8', '#84cc16', '#ca8a04'],
+    colourCount: 12,
+    deliveryWeeks: 12,
+    monthlyPayment: 56.23,
+    aprRate: 0,
+    aprYears: 4,
+    image: '/assets/images/romsey.jpg',
+  },
+  {
+    name: 'Scott',
+    description: 'Bedside Table, Natural Rattan & White-Washed Oak Effect',
+    originalPrice: null,
+    salePrice: 755.0,
+    isOnSale: false,
+    isNew: true,
+    colours: ['#a3a3a3', '#a3e635', '#fde047'],
+    colourCount: 3,
+    deliveryWeeks: 12,
+    monthlyPayment: 56.23,
+    aprRate: 0,
+    aprYears: 4,
+    image: '/assets/images/scott.jpg',
+  },
+  {
+    name: 'Atkinson',
+    description: 'Compact Dining Table and Bench Set, Mango Wood and Black',
+    originalPrice: null,
+    salePrice: 599.0,
+    isOnSale: false,
+    isNew: true,
+    colours: ['#fcd34d', '#cbd5e1', '#84cc16', '#6366f1'],
+    colourCount: 6,
+    deliveryWeeks: 12,
+    monthlyPayment: 56.23,
+    aprRate: 0,
+    aprYears: 4,
+    image: '/assets/images/askinson.jpg',
+  },
+  {
+    name: 'Kasiani',
+    description:
+      'Single Seater Sofa, Paprika Recycled Velvet with Dark Wood Legs',
+    originalPrice: 1299.0,
+    salePrice: 499.0,
+    isOnSale: true,
+    isNew: true,
+    colours: ['#ea580c', '#a3e635', '#eab308', '#fb7372', '#8e44ad'],
+    colourCount: 5,
+    deliveryWeeks: 12,
+    monthlyPayment: 56.23,
+    aprRate: 0,
+    aprYears: 4,
+    image: '/assets/images/kasiani.jpg',
+  },
+];
+
+
 // handmade section
 export const handMadeSec = {
   subtitle: 'Handmade in the United Kingdom',

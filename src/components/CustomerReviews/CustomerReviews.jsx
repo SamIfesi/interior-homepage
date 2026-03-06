@@ -1,9 +1,7 @@
 import { useState } from 'react';
 import Rating from '../Navbar/Rating';
 import '../styles/CustomerReviews.css';
-
-const chevronLeft = '/assets/icons/chevron_left.svg';
-const chevronRight = '/assets/icons/chevron_right.svg';
+import CarouselNav from '../ui/CarouselNav';
 
 export default function CustomerReviews({ data }) {
   const { subtitle, title, quote } = data;
@@ -34,24 +32,7 @@ export default function CustomerReviews({ data }) {
       </div>
 
       {/* ---- Navigation controls ---- */}
-      <div className="reviews-nav">
-        <button className="reviews-arrow" onClick={handlePrev}>
-          <img src={chevronLeft} alt="Previous review" />
-        </button>
-
-        <div className="reviews-dots">
-          {quote.map((_, index) => (
-            <span
-              key={index}
-              className={`reviews-dot ${index === currentIndex ? 'active' : ''}`}
-            />
-          ))}
-        </div>
-
-        <button className="reviews-arrow" onClick={handleNext}>
-          <img src={chevronRight} alt="Next review" />
-        </button>
-      </div>
+      {/* <div classNafrom > */}
       <CarouselNav
         onPrev={handlePrev}
         onNext={handleNext}
