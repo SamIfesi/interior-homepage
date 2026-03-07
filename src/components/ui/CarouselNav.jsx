@@ -1,5 +1,6 @@
 const chevronLeft = '/assets/icons/chevron_left.svg';
 const chevronRight = '/assets/icons/chevron_right.svg';
+import './CarouselNav.css';
 
 export default function CarouselNav({ onPrev, onNext, currentIndex, total }) {
   return (

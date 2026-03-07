@@ -11,7 +11,8 @@ export default function CardSection({ products }) {
         ))}
       </div>
       {/* <CarouselNav onPrev={handlePrev} onNext={handleNext} /> */}
-      <CarouselNav />
+      <CarouselNav 
+      total={4}/>
     </section>
   );
 }

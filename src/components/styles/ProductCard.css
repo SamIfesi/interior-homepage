@@ -1,11 +1,30 @@
 /* ========================================
    Product Card
    ======================================== */
+.card-section {
+  background: var(--bg-primary);
+  padding: 3rem 5rem 0;
+}
+.card-title{
+  font-weight: 500;
+  color: var(--text-secondary);
+  text-align: center;
+  margin-bottom: 2rem;
+}
+.card-container {
+  display: flex;
+  gap: 1.5rem;
+}
 .product-card {
   background-color: var(--bg-white);
   display: flex;
   flex-direction: column;
   cursor: pointer;
+  max-width: 20rem;
+  transition: box-shadow 0.2s ease;
+}
+.product-card:hover {
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
 /* ---- Image & Badges ---- */

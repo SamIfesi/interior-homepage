@@ -1,0 +1,52 @@
+/* ---- Navigation controls ---- */
+.reviews-nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.75rem;
+  margin-top: 1.5rem;
+}
+
+.reviews-arrow {
+  width: 2rem;
+  height: 2rem;
+  border-radius: 50%;
+  border: none;
+  background-color: var(--text-secondary);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+}
+
+.reviews-arrow:hover {
+  opacity: 0.8;
+}
+
+.reviews-arrow img {
+  width: 0.75rem;
+  height: 0.75rem;
+  filter: brightness(0) invert(1);
+}
+
+/* ---- Dots ---- */
+.reviews-dots {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.reviews-dot {
+  width: 0.5rem;
+  height: 0.5rem;
+  border-radius: 50%;
+  background-color: var(--bg-muted);
+  transition: all 0.3s ease;
+}
+
+.reviews-dot.active {
+  width: 1.25rem;
+  border-radius: 1rem;
+  background-color: var(--text-secondary);
+}

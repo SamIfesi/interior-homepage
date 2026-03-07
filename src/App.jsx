@@ -4,7 +4,7 @@ import HeroSection from './components/HeroSection/HeroSection';
 import Footer from './components/Footer/FooterSection';
 import CustomerReviews from './components/CustomerReviews/CustomerReviews';
 import HandMade from './components/HandMade/HandMade';
-import CardSection from './components/Cards/CardSection';
+import CardSection from './components/Gallery/CardSection.jsx';
 import {
   heroData,
   review,
@@ -18,8 +18,8 @@ function App() {
       <Navbar />
       <HandMade data={handMadeSec} />
       <HeroSection data={heroData} />
-      <CustomerReviews data={review[0]} />
       <CardSection products={furnitureProducts} />
+      <CustomerReviews data={review[0]} />
       <Footer />
     </>
   );
